@@ -1,0 +1,135 @@
+/** @format */
+
+.subcontainer {
+  width: 70%;
+  height: 100%;
+}
+.user_info {
+  width: 100%;
+  height: 10rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2%;
+}
+.user_info > p,
+.user_info > h1 {
+  width: 50%;
+  text-align: left;
+  margin: 1% auto 0 3%;
+  font-size: 1rem;
+}
+.product_card {
+  text-align: left;
+  width: 100%;
+  height: 5rem;
+}
+.product_card > p,
+.product_card > strong {
+  display: inline;
+  margin: 0;
+  padding: 1% 3%;
+  font-size: 1.2rem;
+}
+.product_card > img {
+  width: 75px;
+  height: 75px;
+
+  border-radius: 10px;
+  margin-left: 3%;
+}
+.outer_card {
+  margin: 0 1%;
+  height: 10rem;
+  width: 17rem;
+
+}
+.outer_card > div {
+  height: 70%;
+}
+.outer_card > h1 {
+  font-size: 2rem;
+  color: white;
+}
+.total_div,
+.subtotal_div {
+  margin-top: 1%;
+  font-size: 1.5rem;
+}
+.paymentMethodDiv{
+  border-top: 2px solid gray;
+  text-align: left;
+}
+.paymentMethodDiv > h2 ,.paymentMethodDiv > span {
+  margin-left: 2%;
+  display: inline;
+}
+
+@media (max-width : 376px) {
+  #conatiner{
+    display: flex;
+    flex-direction: column;
+  }
+  .subcontainer {
+    width: 100%;
+    height: 100%;
+  }
+  .user_info {
+    width: 100%;
+    height: 10rem;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2%;
+  }
+  .user_info > p,
+  .user_info > h1 {
+    width: 50%;
+    text-align: left;
+    margin: 1% auto 0 3%;
+    font-size: 1rem;
+  }
+  .product_card {
+    text-align: left;
+    width: 100%;
+    height: 5rem;
+  }
+  .product_card > p,
+  .product_card > strong {
+    display: inline;
+    font-size: 1rem;
+  }
+  .product_card > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    margin-left: 1%;
+  }
+  .outer_card {
+    margin: 0 1%;
+    height: 10rem;
+    width: 17rem;
+  
+  }
+  .outer_card > div {
+    height: 70%;
+  }
+  .outer_card > h1 {
+    font-size: 2rem;
+    color: white;
+  }
+  .total_div,
+  .subtotal_div {
+    margin-top: 1%;
+    font-size: 1rem;
+  }
+  .paymentMethodDiv{
+    border-top: 2px solid gray;
+    text-align: left;
+  }
+  .paymentMethodDiv > h2 ,.paymentMethodDiv > span {
+    margin-left: 2%;
+    display: inline;
+  } 
+  #btn{
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+  }
+}

@@ -1,0 +1,43 @@
+.breadCrump_nav{
+    width: 50%;
+    margin: 4% auto;
+}
+.breadCrump_nav > ul{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.breadCrump_nav > ul > li {
+    list-style: none;
+    margin-left: 4%;
+    padding: 2%;
+}
+#breadCrump_btn{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 3% 5%;
+    border-radius: 8%;
+}
+@media (max-width:376px) {
+    .breadCrump_nav{
+        width: 100%;
+        margin: 4% auto;
+    }
+    .breadCrump_nav > ul{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+    }
+    .breadCrump_nav > ul > li {
+        list-style: none;
+    }
+    #breadCrump_btn{
+        background: none;
+        outline: none;
+        border: none;
+        padding: 0 2%;
+        border-radius: 8%;
+    }
+}

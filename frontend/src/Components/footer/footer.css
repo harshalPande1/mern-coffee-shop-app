@@ -1,0 +1,12 @@
+.footer_container{
+    position: sticky;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.footer_container > h3{
+    width: 13rem;
+    margin: 1rem auto;
+    font-size: 0.8rem;
+}

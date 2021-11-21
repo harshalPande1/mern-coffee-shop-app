@@ -1,0 +1,8 @@
+input{
+    margin: 1% 2%;
+}
+@media (max-width : 376px) {
+    .btn{
+        width: 5rem;
+    }
+}

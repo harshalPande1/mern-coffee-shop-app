@@ -1,0 +1,100 @@
+/** @format */
+
+#profile_modal {
+  box-shadow: -1px 0px 20px 5px gray;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 29%;
+  width: 51%;
+  z-index: 10;
+  padding: 1rem;
+  background: white;
+  border-radius: 9px;
+  animation-name: update;
+  animation-duration: 0.1s;
+}
+@keyframes update{
+   from {transform: translateX(-75%);}
+   to {transform: translateX(0%);}
+}
+.header > button {
+  cursor: pointer;
+  width: 2.8rem;
+  outline: none;
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+.header > button:hover {
+  background-color: rgb(250, 199, 199);
+  border-radius: 50%;
+  color: red;
+  transition: all 0.6s;
+}
+.bodyContent > form > input,
+.bodyContent > form > textarea {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  align-self: center;
+  outline: none;
+  border: none;
+}
+.bodyContent > form > input:focus,
+.bodyContent > form > textarea:focus {
+ color: skyblue;
+ border-bottom: 1px solid skyblue;
+ border-radius: 12px;
+ transition: all 1s;
+}
+@media (max-width : 376px) {
+  #profile_modal {
+    box-shadow: -1px 0px 20px 5px gray;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 85%;
+    z-index: 10;
+    padding: 1rem;
+    background: white;
+    border-radius: 9px;
+    animation-name: update;
+    animation-duration: 0.1s;
+  }
+  @keyframes update{
+     from {transform: translateX(-75%);}
+     to {transform: translateX(0%);}
+  }
+  .header > button {
+    cursor: pointer;
+    width: 2.8rem;
+    outline: none;
+    background: none;
+    border: none;
+    margin-left: auto;
+  }
+  .header > button:hover {
+    background-color: rgb(250, 199, 199);
+    border-radius: 50%;
+    color: red;
+    transition: all 0.6s;
+  }
+  .bodyContent > form > input,
+  .bodyContent > form > textarea {
+    margin-bottom: 0.5rem;
+    width: 80%;
+    align-self: center;
+    outline: none;
+    border: none;
+  }
+  .bodyContent > form > input:focus,
+  .bodyContent > form > textarea:focus {
+   color: skyblue;
+   border-bottom: 1px solid skyblue;
+   border-radius: 12px;
+   transition: all 1s;
+  }
+}

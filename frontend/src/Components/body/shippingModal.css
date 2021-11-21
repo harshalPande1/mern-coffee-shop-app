@@ -1,0 +1,45 @@
+.shipping_form > form{
+display: flex;
+margin: 3% auto;
+flex-direction: column;
+width: 50%;
+}
+.input-control , .textarea-control{
+width: 50%;
+margin: 2% auto;
+line-height: 2;
+outline: none;
+border: none;
+border-radius: 8px;
+}
+.input-control:focus , .textarea-control:focus{
+border-bottom: 1px solid gray;
+}
+.btn{
+  width: 50%;
+  margin: 2% auto;
+}
+@media (max-width : 376px) {
+  .shipping_form > form{
+    display: flex;
+    margin: 3% auto;
+    flex-direction: column;
+    width: 100%;
+    }
+    .input-control , .textarea-control{
+      width: 65%;
+      margin: 4% auto;
+      line-height: 2;
+      outline: none;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.5rem;
+    }
+    .input-control:focus , .textarea-control:focus{
+    border-bottom: 1px solid gray;
+    }
+    .btn{
+      width: 40%;
+      margin: 2% auto;
+    }
+}

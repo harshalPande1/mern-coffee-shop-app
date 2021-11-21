@@ -1,0 +1,129 @@
+/** @format */
+.container{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.card {
+  width: 15rem;
+  height: 22.4rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 0;
+  box-shadow: 0px 0px 9px 2px;
+}
+
+.card:hover{
+  box-shadow: skyblue 0px 0px 9px 2px;
+}
+.card > img {
+    margin: 0 0 0 0;
+  width: 100%;
+  height: 12rem;
+  object-position: center;
+  object-fit:cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-body {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.card-body > h4 {
+  font-size: 1rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body > p {
+  font-size: 1rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body > button {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 11px;
+  text-align: center;
+}
+.qtyInput{
+  display: block;
+}
+.qtyInput > input , .qtyInput > button{
+  width: 10%;
+  height: 10%;
+  margin: 5px 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+ .qtyInput > button:hover{
+  color: red;
+}
+@media (max-width: 1024px) {
+  .card {
+    width: 15rem;
+  height: 22rem;
+  font-size: 0.5rem;
+  border-radius: 1rem;
+  padding: 0;
+  box-shadow: 0px 0px 9px 2px;
+  }
+  .card > img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .card-body > h4 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-body > button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 11px;
+  }
+}
+
+@media (min-width : 360px) {
+  .card {
+    width: 15rem;
+  height: 22rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0;
+  box-shadow: 0px 0px 9px 2px;
+  }
+  .card > img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .card-body > h4 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-body > button {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 11px;
+  }
+  .qtyInput{
+    display: block;
+  }
+  .qtyInput > input , .qtyInput > button{
+    width: 10%;
+    height: 10%;
+    margin: 2px 0;
+    background: none;
+    border: none;
+    outline: none;
+  }
+   .qtyInput > button:hover{
+    color: red;
+  }
+}
+
+

@@ -1,0 +1,89 @@
+/** @format */
+
+.mainContainer {
+  max-width: 100%;
+}
+.successClass {
+  color: green;
+}
+.failClass {
+  color: red;
+}
+.divConatiner > Table > tbody > tr:hover {
+  border-bottom: 2px solid skyblue;
+  transition: all 0.5s;
+}
+#switchBTN {
+  width: 100%;
+  background: none;
+  border: none;
+  transition: all 0.8s;
+}
+#switchBTN:hover {
+  border-bottom: 1px solid skyblue;
+  border-right: 1px solid skyblue;
+  border-radius: 8px;
+}
+
+@media (max-width: 1050px) {
+  .divConatiner {
+    width: 75vw;
+    height: 70vh;
+    overflow: scroll;
+  }
+  .divConatiner > Table > tbody > tr:hover {
+    border-bottom: 2px solid skyblue;
+    transition: all 0.5s;
+  }
+}
+
+@media (max-width: 376px) {
+  .divConatiner {
+    display: none;
+  }
+  .smallScreen {
+    display: block;
+  }
+  .smallScreen > table  {
+    display: flex;
+    margin: 0;
+  }
+  #innerDiv{
+      margin: 0;
+      padding: 1rem 0;
+  }
+  .smallScreen > table{
+  padding: 0;
+  margin: 0;
+  }
+  .smallScreen > table  > thead > tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .smallScreen > table  > thead > tr > th {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5% 0;
+    border-radius: 8%;
+  }
+  #products {
+    padding: 26% 0;
+  }
+  .smallScreen > table  > tbody > tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .smallScreen > Table  > tbody > tr > td {
+    border-bottom: 1px solid black;
+    border-radius: 8%;
+    padding: 7.9px;
+    font-size: 1rem;
+  }
+  #tdata{
+      padding: 0.5rem 0;
+      overflow: hidden;
+  }
+  
+}

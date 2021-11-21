@@ -1,0 +1,9 @@
+.edit_delete{
+    color: black;
+    background: none;
+    outline: none;
+    border: none;
+}
+.edit_delete:hover{
+color : red
+}

@@ -1,0 +1,75 @@
+.usersMainContainer{
+    height: 100%;
+    margin: 1%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.usersMainContainer > Table{
+    animation-name: dashPanel;
+    animation-duration: 0.5s;
+}
+@keyframes dashPanel {
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+#tableLink {
+    text-decoration: none;
+    color: rgb(110, 80, 59);
+}
+#tableLink:hover{
+    color: rgb(110, 80, 59);
+}
+#switchBTN{
+    width: 100%;
+    background: none;
+    border: none;
+    transition: all 0.8s;
+}
+#switchBTN:hover{
+    border-bottom : 1px solid rgb(110, 80, 59);
+    border-right : 1px solid rgb(110, 80, 59);
+    border-radius: 8px;
+}
+.smallScreen{
+    display: none;
+}
+
+@media (max-width : 376px) {
+  .usersMainContainer{
+      display: none;
+  }
+  .smallScreen{
+      display: block;
+  }
+  .smallScreen > table{
+      display: flex;
+      margin: 1rem;
+      padding: 1rem;
+  }
+  .smallScreen > table  >thead > tr {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .smallScreen > table  >thead > tr > th {
+        font-size: 1.4rem;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 8%;
+    }
+    .smallScreen > table  >tbody > tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+  }
+    .smallScreen > Table  >tbody > tr > td{
+        border-bottom: 1px solid black;
+        border-radius: 8%;
+        padding: 2%;
+        font-size: 1.2rem;
+  }
+}

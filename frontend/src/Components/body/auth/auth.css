@@ -1,0 +1,61 @@
+#switchBtn{
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+#regi_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : auto;
+}
+
+.notValid{
+    border: 3px solid red;
+}
+#formDiv{
+}
+#formDiv > form{
+    width: 45%;
+}
+#switchBtn{
+    width: 16rem;
+}
+.logInForm{
+    align-items: flex-end;
+    height: 50vh;
+
+}
+@media (max-width : 376px) {
+    #switchBtn{
+        width: 5rem;
+        margin-bottom: 2rem;
+    }
+    #regi_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin : auto;
+    }
+    .registerClass{
+        width: 25%;
+    }
+    .notValid{
+        border: 3px solid red;
+    }
+    #formDiv > form{
+        width: 100%;
+    }
+    #formDiv > form{
+        width: 90%;
+    }
+    #switchBtn{
+        width: 16rem;
+    }
+    .logInForm{
+        align-items: flex-end;
+        height: 50vh;
+    
+    }
+}

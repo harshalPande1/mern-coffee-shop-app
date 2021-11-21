@@ -1,0 +1,23 @@
+.form-control{
+    width: 50%;
+    margin: 0 auto;
+}
+.btn{
+    width: 25%;
+}
+
+@media (max-width : 376px) {
+    form{
+        margin-top: 25%;
+        height: 100%;
+        width: 100%;
+    }
+    .form-control{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 2;
+    }
+    .btn{
+        width: 25%;
+    }
+}
